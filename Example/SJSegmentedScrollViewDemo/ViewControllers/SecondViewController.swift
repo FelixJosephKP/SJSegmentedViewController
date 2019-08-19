@@ -25,7 +25,7 @@ extension SecondViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellIdentifier", for: indexPath)
         
-        cell.textLabel?.text = "Second View Row " + String((indexPath as NSIndexPath).row)
+        cell.textLabel?.text = "Second View Row  " + String((indexPath as NSIndexPath).row)
         
         return cell
     }

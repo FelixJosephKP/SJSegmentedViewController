@@ -41,7 +41,7 @@ class FirstTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellIdentifier", for: indexPath)
         
-        cell.textLabel?.text = "Row  " + String((indexPath as NSIndexPath).row)
+        cell.textLabel?.text = "Row " + String((indexPath as NSIndexPath).row)
         
         return cell
     }
